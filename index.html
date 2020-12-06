@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Calculator</h1>
+
+        </header>
+        <div class="calci" id="calci">
+            <div class="disply">
+                <input type="text" value="" class="int" id="ints" >
+            </div>
+            <div class="numKeys">
+                <div class="buttons">
+                    <button onclick="backspace()" type="button">C</button>
+                </div>
+                <div class="buttons" >
+                    <button onclick="clr()" type="button" value="AC">AC</button>
+                </div>
+                <div class="buttons" >
+                    <button onclick="put('%')" type="button" value="%">%</button>
+                </div>
+                <div class="buttons" >
+                    <button onclick="put('/')" type="button" value="/">/</button>
+                </div>
+                <div class="buttons" >
+                    <button onclick="put('7')" type="button" value="7">7</button>
+                </div>
+                <div class="buttons" >
+                    <button onclick="put('8')" type="button" value="8">8</button>
+                </div>
+                <div class="buttons" >
+                    <button onclick="put('9')" type="button" value="9">9</button>
+                </div>
+                <div class="buttons" >
+                    <button onclick="put('*')" type="button" value="X">X</button>
+                </div>
+                <div class="buttons" >
+                    <button onclick="put('4')" type="button" value="4">4</button>
+                </div>
+                <div class="buttons" >
+                    <button onclick="put('5')" type="button" value="5">5</button>
+                </div>
+                <div class="buttons" >
+                    <button onclick="put('6')" type="button" value="6">6</button>
+                </div>
+                <div class="buttons" >
+                    <button onclick="put('-')" type="button" value="-">-</button>
+                </div>
+                <div class="buttons" >
+                    <button onclick="put('1')" type="button" value="1">1</button>
+                </div>
+                <div class="buttons" >
+                    <button onclick="put('2')" type="button" value="2">2</button>
+                </div>
+                <div class="buttons" >
+                    <button onclick="put('3')" type="button" value="3">3</button>
+                </div>
+                <div class="buttons" >
+                    <button onclick="put('+')" type="button" value="+">+</button>
+                </div>
+                <div class="buttons" >
+                    <button onclick="put('.')" type="button" value=".">.</button>
+                </div>
+                <div class="buttons" >
+                    <button onclick="put('0')" type="button" value="0">0</button>
+                </div>
+                <div class="buttons" >
+                    <button onclick="submit()" type="button" >=</button>
+                </div>
+                <div class="buttons" >
+                    <button onclick="light()"  type="button"  style="font-size:17px;" id="btn">Dark</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

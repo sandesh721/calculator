@@ -1,0 +1,82 @@
+html{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+}
+h1{
+    font-family: cursive;
+    color: #6a82da;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    
+}
+.calci{
+    border: none;
+    width: 250px;
+    padding: 10px;
+    background: linear-gradient(270deg,#485563,#29323c);
+    border-radius: 8px;
+    
+}
+.buttons{
+    display: inline;
+    position: relative;
+
+    justify-content: space-between;
+   font-size: 40px;
+   
+    width: 100%;
+    height: 100px;
+
+
+}
+button{
+    padding: 13px;
+    border-radius:45%;
+    border: none;
+    outline: none;
+    width:50px;
+    background-color: rgb(185, 187, 187);
+    color: black;
+    font-weight: 500;
+    font-size: 19px;
+}
+input{
+    width: 240px;
+    height: 60px;
+    outline: none;
+    color: white;
+    font-size: 1.5rem;
+    text-align: right;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white ;
+}
+
+.light {
+      background: linear-gradient(270deg,#dadfe4,#a5a7a8);
+      width: 250px;
+      padding: 10px;
+      border-radius: 5px;
+}
+.light .int{
+    color: black;
+    border-bottom: 1px solid black ;
+}
+.light button{
+    color: white;
+    background: rgb(51, 50, 50);
+}
+
+.light button:hover{
+    background-color: rgb(20, 20, 20);
+}
+.calci button:hover{
+    background-color: rgb(231, 238, 234);
+}
